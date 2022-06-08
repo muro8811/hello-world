@@ -24,7 +24,7 @@ from aos_vis_client import VISClient, VISDataSubscription, VISDataAccessor
 logger = logging.getLogger(__name__)
 
 
-VIS_URL = "wss://wwwivi:8088/"
+VIS_URL = "wss://wwwivi:443/"
 
 # Go to https://webhook.site/#/ copy and paste server link to HTTP_REQUEST_RECEIVER_URL
 HTTP_REQUEST_RECEIVER_URL = os.environ.get('WEBHOOK_SITE')
