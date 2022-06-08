@@ -6,7 +6,7 @@ build:
     remove_non_regular_files: True
 
 publish:
-    url: staging-fusion.westeurope.cloudapp.azure.com
+    url: aoscloud.io
     service_uid: c4222ace-a469-4bb3-97e1-b8031aae6842
     tls_key: private_key.pem
     tls_certificate: sp-client.pem
