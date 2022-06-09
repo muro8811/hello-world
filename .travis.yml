@@ -4,8 +4,8 @@ python:
 install:
 - pip install aos-signer
 before_install:
-- openssl aes-256-cbc -in meta/private_key.pem.enc -out meta/private_key.pem -K 1234567812346578 -iv 0 -d
+- openssl aes-256-cbc -K $encrypted_511c10f01f4a_key -iv $encrypted_511c10f01f4a_iv
+  -in meta/private_key.pem.enc -out meta/private_key.pem -d
 script:
 - aos-signer sign
 - aos-signer upload
-
