@@ -19,8 +19,8 @@ Please refer to the official webpage:
   - [FAQ](#FAQ)
   - [Community Q&A forum](#Community-QA-forum)
 
-# Download software
-Download the R-Car S4 Whitebox SDK build environment. Execute the following command.
+# Setup
+Execute the following command:
 
 	bash -c "$(wget -O- https://raw.githubusercontent.com/renesas-rcar/whitebox-sdk/v5.0/tool/repo_init.sh )"
 
@@ -30,8 +30,7 @@ Please obtain the compiler in advance; "RH850 Compiler CC-RH V2.05.00 for e2 stu
 
 https://www.renesas.com/us/en/software-tool/c-compiler-package-rh850-family#download
 
-Copy the downloaded C Compiler Package file (CC-RH_V20500_setup-doc.zip) under "tool". Execute the
-following command.
+Save the downloaded file (CC-RH_V20500_setup-doc.zip) in the "tool" folder. Execute the following command.
 
 	cp CC-RH_V20500_setup-doc.zip ./whitebox-sdk/tool
 
@@ -39,12 +38,10 @@ Obtain "ICUMX Loader and Flash writer Package for R-Car S4 Starter Kit". If the 
 
 https://www.renesas.com/us/en/products/automotive-products/automotive-system-chips-socs/y-ask-rcar-s4-1000base-t-r-car-s4-starter-kit#design_development
 
-Copy the downloaded ICUMX file ("ICUMX_Loader_and_Flashwriter_Package_for_RCar_
-S4_Starter_Kit_SDKv3.16.1.zip") under "tool". Execute the following command.
+Save the downloaded file (ICUMX_Loader_and_Flashwriter_Package_for_R-Car_S4_Starter_Kit_SDKv3.16.1.zip) in the "tool" folder. Execute the following command.
 
 	cp ICUMX_Loader_and_Flashwriter_Package_for_R-Car_S4_Starter_Kit_SDKv3.16.1.zip ./whitebox-sdk/tool
 
-# Install tools
 Execute the following command:
 
 	cd ./whitebox-sdk/tool
