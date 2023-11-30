@@ -24,7 +24,6 @@ Download the R-Car S4 Whitebox SDK build environment. Execute the following comm
 
 	bash -c "$(wget -O- https://raw.githubusercontent.com/renesas-rcar/whitebox-sdk/v5.0/tool/repo_init.sh )"
 
-# Tool setup
 Since GUI operation is required during installation, it must be run on an Ubuntu PC.
 Please obtain the compiler in advance; "RH850 Compiler CC-RH V2.05.00 for e2 studio" is available from the following site.
 
