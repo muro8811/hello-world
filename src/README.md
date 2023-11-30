@@ -10,8 +10,8 @@ Please refer to the official webpage:
 
 # Table of contents
 https://github.com/muro8811/hello-world/tree/master/src#download-software
-- [Download software](#Download)
-- [Install tools](#Install)
+- [Download software](#Download-software)
+- [Install tools](#Install-tools)
 - [Build](#Build)
 - [LICENSE](#LICENSE)
 - [Documentation](#Documentation)
@@ -19,7 +19,7 @@ https://github.com/muro8811/hello-world/tree/master/src#download-software
   - [FAQ](#FAQ)
   - [Community Q&A forum](#Community-QA-forum)
 
-# Download
+# Download software
 Download the R-Car S4 Whitebox SDK build environment. Execute the following command.
 
 	bash -c "$(wget -O- https://raw.githubusercontent.com/renesas-rcar/whitebox-sdk/v5.0/tool/repo_init.sh )"
@@ -43,7 +43,7 @@ S4_Starter_Kit_SDKv3.16.1.zip") under "tool". Execute the following command.
 
 	cp ICUMX_Loader_and_Flashwriter_Package_for_R-Car_S4_Starter_Kit_SDKv3.16.1.zip ./whitebox-sdk/tool
 
-# Install
+# Install tools
 Execute the following command:
 
 	cd ./whitebox-sdk/tool
