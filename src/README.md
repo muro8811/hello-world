@@ -40,6 +40,10 @@ Obtain "ICUMX Loader and Flash writer Package for R-Car S4 Starter Kit". If the 
 
 https://www.renesas.com/us/en/products/automotive-products/automotive-system-chips-socs/y-ask-rcar-s4-1000base-t-r-car-s4-starter-kit#design_development
 
+Save the downloaded file (ICUMX_Loader_and_Flashwriter_Package_for_R-Car_S4_Starter_Kit_SDKv3.16.1.zip) in the "tool" folder and execute the following command
+
+	cp ICUMX_Loader_and_Flashwriter_Package_for_R-Car_S4_Starter_Kit_SDKv3.16.1.zip ./whitebox-sdk/tool
+
 # Build
 Execute the following command:
 
