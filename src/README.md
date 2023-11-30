@@ -9,9 +9,10 @@ Please refer to the official webpage:
 - https://www.renesas.com/whitebox-sdk
 
 # Table of contents
-
-- [Download software](#Download software)
-- [Install tools](#Install tools)
+https://github.com/muro8811/hello-world/tree/master/src#download-software
+- [Setup](#Setup)
+- [Download software](# Download software)
+- [Install tools](# Install tools)
 - [Build](#Build)
 - [LICENSE](#LICENSE)
 - [Documentation](#Documentation)
@@ -19,6 +20,7 @@ Please refer to the official webpage:
   - [FAQ](#FAQ)
   - [Community Q&A forum](#Community-QA-forum)
 
+# Setup
 # Download software
 Download the R-Car S4 Whitebox SDK build environment. Execute the following command.
 
