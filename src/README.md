@@ -10,8 +10,8 @@ Please refer to the official webpage:
 
 # Table of contents
 
-- [Setup](#Setup)
-- [Tool setup](#Tool-setup)
+- [Download software](#Download software)
+- [Install tools](#Install tools)
 - [Build](#Build)
 - [LICENSE](#LICENSE)
 - [Documentation](#Documentation)
@@ -24,8 +24,8 @@ Download the R-Car S4 Whitebox SDK build environment. Execute the following comm
 
 	bash -c "$(wget -O- https://raw.githubusercontent.com/renesas-rcar/whitebox-sdk/v5.0/tool/repo_init.sh )"
 
-Since GUI operation is required during installation, it must be run on an Ubuntu PC.
-Please obtain the compiler in advance; "RH850 Compiler CC-RH V2.05.00 for e2 studio" is available from the following site.
+To build G4MH for TOPPERS/ATK2 and Trampoline OS, a C compiler is required. Therefore, please get the compiler on your Ubuntu PC beforehand.
+"RH850 Compiler CC-RH V2.05.00 for e2 studio" can be obtained from the following site.
 
 https://www.renesas.com/us/en/software-tool/c-compiler-package-rh850-family#download
 
