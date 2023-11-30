@@ -30,7 +30,7 @@ Please obtain the compiler in advance; "RH850 Compiler CC-RH V2.05.00 for e2 stu
 
 https://www.renesas.com/us/en/software-tool/c-compiler-package-rh850-family#download
 
-Save the downloaded file (CC-RH_V20500_setup-doc.zip) in the "tool" folder.
+Save the downloaded file (CC-RH_V20500_setup-doc.zip) in the "tool" folder. Execute the following command.
 
 	cp CC-RH_V20500_setup-doc.zip ./whitebox-sdk/tool
 
@@ -38,7 +38,7 @@ Obtain "ICUMX Loader and Flash writer Package for R-Car S4 Starter Kit". If the 
 
 https://www.renesas.com/us/en/products/automotive-products/automotive-system-chips-socs/y-ask-rcar-s4-1000base-t-r-car-s4-starter-kit#design_development
 
-Save the downloaded file (ICUMX_Loader_and_Flashwriter_Package_for_R-Car_S4_Starter_Kit_SDKv3.16.1.zip) in the "tool" folder and execute the following command
+Save the downloaded file (ICUMX_Loader_and_Flashwriter_Package_for_R-Car_S4_Starter_Kit_SDKv3.16.1.zip) in the "tool" folder. Execute the following command.
 
 	cp ICUMX_Loader_and_Flashwriter_Package_for_R-Car_S4_Starter_Kit_SDKv3.16.1.zip ./whitebox-sdk/tool
 
